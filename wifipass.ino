@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   if(!complete){
-    //open cmdcmd
+    //open cmd
     
     delay(500);
     Keyboard.releaseAll();
@@ -22,10 +22,11 @@ void loop() {
     Keyboard.releaseAll();
     delay(500);
 
-    //open notepad 
+    //open notepad
     Keyboard.press(KEY_LEFT_GUI);
     Keyboard.press(KEY_UP_ARROW);
     Keyboard.releaseAll();
+    writeEnter("del q.bat");
     writeEnter("notepad q.bat");
     delay(500);
     enter();
