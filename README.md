@@ -1,2 +1,2 @@
-# MALUSB
-malicious USB keyboards
+# arduino-malusb
+some simple functions to make malicious USB devices with the arduino
